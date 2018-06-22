@@ -1,0 +1,12 @@
+{
+  "name": "gas-test-project",
+  "version": "0.0.0",
+  "description": "GasTestProject",
+  "main": "app.js",
+  "author": {
+    "name": "MAX"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.87"
+  }
+}
