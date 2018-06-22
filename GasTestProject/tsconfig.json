@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "amd",
     "target": "es5",
     "lib": ["es5"],
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "out"
   },
   "exclude": [
     "node_modules"
