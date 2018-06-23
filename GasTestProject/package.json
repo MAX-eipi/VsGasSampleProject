@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "GasTestProject",
   "main": "app.js",
+  "scripts": {
+    "build": "rimraf dist && webpack && cpx src/appsscript.json dist",
+    "deploy": "npm run build && clasp push"
+  },
   "author": {
     "name": "MAX"
   },
