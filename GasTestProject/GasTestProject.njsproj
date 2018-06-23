@@ -32,7 +32,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
     <Content Include="chutzpah.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -40,6 +39,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="webpack.config.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app.ts" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
